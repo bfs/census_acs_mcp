@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "nodejs@24.11.1"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Census ACS MCP Server development environment'"
+    ],
+    "scripts": {
+      "build": "npm run build",
+      "dev": "npm run dev",
+      "start": "npm run start"
+    }
+  }
+}
+
